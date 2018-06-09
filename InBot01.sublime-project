@@ -1,0 +1,31 @@
+{
+	"build_systems":
+	[
+		{
+			"cmd": "mbed compile -m NUCLEO_F411RE -t GCC_ARM",
+			"env":
+			{
+				"GCC4MBED_DIR": "/home/inaki/Downloads/adamgreen-gcc4mbed-7d79ef3",
+				"MBED_GCC_ARM_PATH": "/home/inaki/Downloads/adamgreen-gcc4mbed-7d79ef3/gcc-arm-none-eabi/bin",
+				"ROS_LIB_DIR": "/home/inaki/Downloads/adamgreen-gcc4mbed-7d79ef3/ros_lib/ros_lib"
+			},
+			"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+			"keyfiles":
+			[
+				"makefile",
+				"Makefile"
+			],
+			"name": "mbed",
+			"path": "/opt/ros/kinetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin",
+			"selector": "source.makefile",
+			"shell": true,
+			"working_dir": "${project_path:${folder:${file_path}}}"
+		}
+	],
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	]
+}

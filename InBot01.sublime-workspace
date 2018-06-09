@@ -1,0 +1,1021 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"imu_",
+				"imu_mag"
+			],
+			[
+				"imu",
+				"imu_mag"
+			],
+			[
+				"st",
+				"stamp"
+			],
+			[
+				"base",
+				"base_point"
+			],
+			[
+				"Tran",
+				"transformListner"
+			],
+			[
+				"ar",
+				"argv"
+			],
+			[
+				"bas",
+				"base_point"
+			],
+			[
+				"tran",
+				"transformPoint"
+			],
+			[
+				"lef",
+				"left_wheel_vel_pub"
+			],
+			[
+				"doc",
+				"docount_left"
+			],
+			[
+				"rith",
+				"right_encoder_pin"
+			],
+			[
+				"cou",
+				"counter_right"
+			],
+			[
+				"righ",
+				"right_wheel_vel"
+			],
+			[
+				"rig",
+				"right_wheel_vel"
+			],
+			[
+				"counter_",
+				"counter_left"
+			],
+			[
+				"chap",
+				"chapter2_msg1"
+			],
+			[
+				"stat",
+				"statusCode"
+			],
+			[
+				"sign",
+				"signedCookies"
+			],
+			[
+				"lead",
+				"leader"
+			],
+			[
+				"promo",
+				"promotion"
+			],
+			[
+				"comm",
+				"commentId"
+			],
+			[
+				"commen",
+				"commentId"
+			],
+			[
+				"dish",
+				"dishId"
+			],
+			[
+				"mongo",
+				"mongoose"
+			],
+			[
+				"Dis",
+				"Dishes"
+			],
+			[
+				"re",
+				"required"
+			],
+			[
+				"db",
+				"dboper"
+			],
+			[
+				"di",
+				"dishId"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"ex",
+				"express\tconst"
+			],
+			[
+				"bo",
+				"body"
+			],
+			[
+				"body",
+				"bodyParser"
+			],
+			[
+				"file",
+				"filePath"
+			],
+			[
+				"s",
+				"statusCode"
+			],
+			[
+				"rect",
+				"rectangle"
+			],
+			[
+				"onmouse",
+				"onmouseenter\tvar"
+			],
+			[
+				"Elem",
+				"ElementRef\talias"
+			],
+			[
+				"Restangular",
+				"Restangular\talias"
+			],
+			[
+				"Restan",
+				"RestangularConfigFactory\talias"
+			],
+			[
+				"fun",
+				"function\tkeyword"
+			],
+			[
+				"map",
+				"map\tscript"
+			],
+			[
+				"Proce",
+				"ProcessHttpmsgService\talias"
+			],
+			[
+				"get",
+				"getDay\tmethod"
+			],
+			[
+				"f",
+				"function\tkeyword"
+			],
+			[
+				"fee",
+				"feedbackForm\tproperty"
+			],
+			[
+				"value",
+				"valueChanges\tproperty"
+			],
+			[
+				"max",
+				"maxLength\tmethod"
+			],
+			[
+				"min",
+				"minLength\tmethod"
+			],
+			[
+				"LEADERS",
+				"LEADERS\talias"
+			],
+			[
+				"feedba",
+				"feedbackForm"
+			],
+			[
+				"feedb",
+				"feedbackForm\tproperty"
+			],
+			[
+				"feed",
+				"feedbackForm\tproperty"
+			],
+			[
+				"MdDial",
+				"MdDialogRef\talias"
+			],
+			[
+				"fa",
+				"fa-lg"
+			],
+			[
+				"getLeade",
+				"getLeaders\tmethod"
+			],
+			[
+				"Leader",
+				"LeaderService\talias"
+			],
+			[
+				"fr",
+				"from\tkeyword"
+			],
+			[
+				"Promo",
+				"PromotionService\talias"
+			],
+			[
+				"Dish",
+				"DishService\talias"
+			],
+			[
+				"fil",
+				"filter\tmethod"
+			],
+			[
+				"final",
+				"final_frame2"
+			],
+			[
+				"S",
+				"selectedDish\tproperty"
+			],
+			[
+				"import",
+				"import\timports a module …"
+			],
+			[
+				"carou",
+				"carousel-item-height"
+			],
+			[
+				"back",
+				"background-dark"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"session_d",
+				"session_destroy"
+			],
+			[
+				"session",
+				"session_start"
+			],
+			[
+				"login",
+				"login_username"
+			],
+			[
+				"uns",
+				"unset"
+			],
+			[
+				"border-ty",
+				"border-bottom-style"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"backgrou",
+				"background-size"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"caro",
+				"carousel-button"
+			],
+			[
+				"ca",
+				"carousel"
+			],
+			[
+				"mini",
+				"min-height"
+			],
+			[
+				"linea",
+				"linear_"
+			],
+			[
+				"ang",
+				"ang"
+			],
+			[
+				"angular",
+				"angular_"
+			],
+			[
+				"turtl",
+				"Turtlesim"
+			],
+			[
+				"ps3_joy_",
+				"ps3_joy_tst"
+			],
+			[
+				"j",
+				"joyCallback"
+			],
+			[
+				"a",
+				"a_scale_"
+			],
+			[
+				"vel",
+				"vel_pub_"
+			],
+			[
+				"lin",
+				"linear_"
+			],
+			[
+				"l",
+				"l_scale_"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"se",
+				"setTopic"
+			],
+			[
+				"out",
+				"output_topic_editor_"
+			],
+			[
+				"con",
+				"config"
+			],
+			[
+				"r",
+				"rviz"
+			],
+			[
+				"angu",
+				"angular_velocity_"
+			],
+			[
+				"update",
+				"updateTopic"
+			],
+			[
+				"ve",
+				"velocity_publisher_"
+			],
+			[
+				"ou",
+				"output_topic_"
+			],
+			[
+				"new",
+				"new_topic"
+			],
+			[
+				"outp",
+				"output_topic_editor_"
+			],
+			[
+				"upda",
+				"updateTopic"
+			],
+			[
+				"Tele",
+				"TeleopPanel"
+			],
+			[
+				"hok",
+				"hokuyo_size"
+			],
+			[
+				"pu",
+				"publisher"
+			],
+			[
+				"robo",
+				"robot_state_publisher"
+			],
+			[
+				"ho",
+				"hokuyo_link"
+			],
+			[
+				"Bl",
+				"Blue"
+			],
+			[
+				"x",
+				"xyz"
+			],
+			[
+				"caster",
+				"caster_front_joint"
+			],
+			[
+				"cas",
+				"caster_f_mass"
+			],
+			[
+				"i",
+				"inertial"
+			],
+			[
+				"casterr",
+				"caster_f_radius"
+			],
+			[
+				"inet",
+				"inertia"
+			],
+			[
+				"iner",
+				"inertial"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "X_NUCLEO_IKS01A2/Components/LSM6DSL/LSM6DSLSensor.cpp",
+			"settings":
+			{
+				"buffer_size": 52269,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "InBot01.sublime-project",
+			"settings":
+			{
+				"buffer_size": 890,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Sensing.h",
+			"settings":
+			{
+				"buffer_size": 813,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "main.cpp.bkp",
+			"settings":
+			{
+				"buffer_size": 5249,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "main.cpp",
+			"settings":
+			{
+				"buffer_size": 7864,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "main.cpp.ina",
+			"settings":
+			{
+				"buffer_size": 9746,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control:",
+		"selected_items":
+		[
+			[
+				"Package Control:",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 461.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/inaki/dev/src/rosserial/rosserial_mbed/src/InBot01"
+	],
+	"file_history":
+	[
+		"/home/inaki/dev/src/rosserial/rosserial_mbed/src/InBot01/Odom.cpp",
+		"/home/inaki/dev/src/rosserial/rosserial_mbed/src/InBot01/pid.h",
+		"/home/inaki/dev/src/rosserial/rosserial_mbed/src/InBot01/Motor.h",
+		"/home/inaki/dev/src/rosserial/rosserial_mbed/src/Chefbot/InBot01.sublime-project",
+		"/home/inaki/.config/sublime-text-3/Packages/User/MyMake.sublime-build",
+		"/home/inaki/.config/sublime-text-3/Packages/User/EnvironmentSettings.sublime-settings",
+		"/home/inaki/.config/sublime-text-3/Packages/EnvironmentSettings/EnvironmentSettings.sublime-settings",
+		"/home/inaki/dev/src/Inaki_tst01/src/tf_listener.cpp",
+		"/home/inaki/dev/src/Inaki_tst01/src/tf_broadcaster.cpp",
+		"/home/inaki/dev/src/mastering_ros_robot_description_pkg/urdf/seven_dof_arm.xacro",
+		"/home/inaki/dev/src/robot_description_pkg/seven_dof_arm_gazebo/launch/seven_dof_arm_world.launch",
+		"/home/inaki/dev/src/robot_description_pkg/urdf/diff_wheeled_robot.xacro",
+		"/home/inaki/dev/src/robot_description_pkg/urdf/seven_dof_arm.xacro",
+		"/home/inaki/dev/src/robot_description_pkg/launch/view_arm.launch",
+		"/home/inaki/dev/src/robot_description_pkg/urdf/pan_tilt.urdf",
+		"/home/inaki/dev/rosbook/chapter2_tutorials/src/example3_a.cpp",
+		"/home/inaki/dev/rosbook/chapter2_tutorials/src/example2_b.cpp",
+		"/home/inaki/Node.JS/conFusionServer/app.js",
+		"/home/inaki/angular/conFusion/src/app/contact/contact.component.ts",
+		"/home/inaki/angular/conFusion/src/app/services/promotion.service.ts",
+		"/home/inaki/angular/conFusion/src/app/services/process-httpmsg.service.ts",
+		"/home/inaki/angular/conFusion/src/app/login/login.component.html",
+		"/home/inaki/angular/conFusion/src/app/shared/baseurl.ts",
+		"/home/inaki/angular/conFusion/src/app/about/about.component.ts",
+		"/home/inaki/angular/conFusion/src/app/about/about.component.html",
+		"/home/inaki/angular/conFusion/src/app/menu/menu.component.html",
+		"/home/inaki/angular/conFusion/src/app/menu/menu.component.ts",
+		"/home/inaki/angular/conFusion/src/app/dishdetail/dishdetail.component.html",
+		"/home/inaki/angular/conFusion/src/app/dishdetail/dishdetail.component.ts",
+		"/home/inaki/angular/conFusion/src/app/services/feedback.service.ts",
+		"/home/inaki/Node.JS/node-mongo/operations.js",
+		"/home/inaki/Node.JS/conFusionServer/routes/index.js",
+		"/home/inaki/dev/src/Inaki_tst01/package.xml",
+		"/home/inaki/dev/src/Inaki_tst01/CMakeLists.txt",
+		"/home/inaki/dev/src/Inaki_tst01/urdf/dae.urdf",
+		"/home/inaki/dev/src/Inaki_tst01/launch/display.launch",
+		"/home/inaki/dev/src/Inaki_tst01/src/state_publisher.cpp",
+		"/home/inaki/dev/src/Inaki_tst01/urdf/robot1.urdf",
+		"/home/inaki/dev/src/Inaki_tst01/src/laser.cpp",
+		"/home/inaki/dev/rosbook/chapter2_tutorials/src/example2_a.cpp",
+		"/home/inaki/json-server/db.json",
+		"/home/inaki/Node.JS/conFusionServer/models/user.js",
+		"/home/inaki/Node.JS/conFusionServer/routes/users.js",
+		"/home/inaki/Node.JS/conFusionServer/routes/leaderRouter.js",
+		"/home/inaki/Node.JS/conFusionServer/routes/promoRouter.js",
+		"/home/inaki/Node.JS/conFusionServer/routes/dishRouter.js",
+		"/home/inaki/Node.JS/conFusionServer/models/dishes.js",
+		"/home/inaki/angular/conFusion/src/app/services/leader.service.ts",
+		"/home/inaki/angular/conFusion/src/app/services/dish.service.ts",
+		"/home/inaki/angular/conFusion/src/app/shared/restConfig.ts",
+		"/home/inaki/angular/conFusion/src/app/directives/highlight.directive.ts",
+		"/home/inaki/angular/conFusion/src/app/app.module.ts",
+		"/home/inaki/angular/conFusion/src/app/login/login.component.ts",
+		"/home/inaki/angular/conFusion/src/app/header/header.component.html",
+		"/home/inaki/angular/conFusion/src/app/header/header.component.ts",
+		"/home/inaki/angular/conFusion/src/app/home/home.component.html",
+		"/home/inaki/angular/conFusion/src/app/home/home.component.ts",
+		"/home/inaki/angular/conFusion/src/app/animations/app.animation.ts",
+		"/home/inaki/dev/src/rosserial/rosserial_mbed/src/examples/Blink/Blink.cpp",
+		"/home/inaki/dev/src/rosserial/rosserial_mbed/src/examples/Blink/Blink.sublime-project",
+		"/home/inaki/dev/src/rosserial/rosserial_mbed/src/examples/Blink/makefile",
+		"/home/inaki/.config/sublime-text-3/Packages/User/MyC++Build",
+		"/home/inaki/dev/src/Inaki_test/CMakelist.txt",
+		"/home/inaki/dev/src/Inaki_tst1/CMakeLists.txt",
+		"/home/inaki/dev/Effective-Robotics-Programming-with-Ros/B05576_03_Code/chapter3_Code/CMakeLists.txt",
+		"/home/inaki/dev/rosbook/chapter2_tutorials/src/example3_b.cpp",
+		"/home/inaki/dev/src/Inaki_tst1/src/CMakelist.txt",
+		"/home/inaki/Arduino/Motor.cpp/Motor.cpp.ino",
+		"/home/inaki/dev/src/robot_description_pkg/mastering_ros_robot_description_pkg/urdf/seven_dof_arm.xacro",
+		"/home/inaki/dev/src/robot_description_pkg/launch/view_mobile_robot.launch",
+		"/home/inaki/dev/src/robot_description_pkg/urdf/wheel.urdf.xacro",
+		"/home/inaki/dev/src/robot_description_pkg/urdf/seven_dof_arm.urdf",
+		"/home/inaki/dev/src/robot_description_pkg/launch/seven_dof_arm.urdf",
+		"/home/inaki/dev/src/robot_description_pkg/urdf/sensors/xtion_pro_live.urdf.xacro",
+		"/home/inaki/dev/src/robot_description_pkg/urdf/sensors/xtion_pro_live.gazebo.xacro",
+		"/opt/spark-2.3.0-bin-without-hadoop/credentials.txt",
+		"/home/inaki/angular/conFusion/src/app/shared/feedback.ts",
+		"/home/inaki/Node.JS/node-mongoose/index.js",
+		"/home/inaki/Node.JS/conFusionServer/models/promotions.js",
+		"/home/inaki/Node.JS/conFusionServer/models/leaders.js",
+		"/home/inaki/Node.JS/node-mongo/index.js",
+		"/home/inaki/Node.JS/node-mongoose/models/dishes.js",
+		"/home/inaki/Node.JS/node-express/index.js",
+		"/home/inaki/Node.JS/node-express/routes/leaderRouter.js",
+		"/home/inaki/Node.JS/node-express/routes/dishRouter.js",
+		"/home/inaki/angular/conFusion/src/app/contact/contact.component.html",
+		"/home/inaki/Node.JS/node-express/routes/promoRouter.js",
+		"/home/inaki/Node.JS/conFusionServer/bin/www",
+		"/home/inaki/Node.JS/node-http/index.js",
+		"/home/inaki/Node.JS/node-examples/index.js",
+		"/home/inaki/Node.JS/node-http/aboutus.html",
+		"/home/inaki/Node.JS/node-examples/rectangle.js",
+		"/tmp/mozilla_inaki0/routes.ts",
+		"/tmp/mozilla_inaki0/header.component.ts",
+		"/home/inaki/angular/conFusion/src/app/shared/promotions.ts",
+		"/home/inaki/angular/conFusion/src/app/shared/promotion.ts",
+		"/home/inaki/angular/conFusion/src/app/shared/dishes.ts",
+		"/home/inaki/angular/conFusion/src/app/shared/dish.ts",
+		"/home/inaki/angular/conFusion/src/app/shared/leaders.ts",
+		"/home/inaki/angular/conFusion/src/app/shared/leader.ts",
+		"/home/inaki/angular/conFusion/src/styles.scss",
+		"/home/inaki/angular/conFusion/src/app/shared/comments.ts",
+		"/home/inaki/angular/conFusion/src/app/menu/menu.component.scss",
+		"/home/inaki/angular/conFusion/src/app/dishdetail/dishdetail.component.scss",
+		"/home/inaki/angular/conFusion/src/app/contact/contact.component.scss",
+		"/home/inaki/angular/conFusion/src/app/about/about.component.scss",
+		"/home/inaki/angular/conFusion/src/app/login/login.component.spec.ts",
+		"/tmp/mozilla_inaki0/app.module-4.ts",
+		"/home/inaki/Downloads/trash/about.component.html",
+		"/tmp/mozilla_inaki0/about.component-4.ts",
+		"/tmp/mozilla_inaki0/leader.service-4.ts",
+		"/tmp/mozilla_inaki0/routes-1.ts",
+		"/tmp/mozilla_inaki0/home.component-3.ts",
+		"/tmp/mozilla_inaki0/app.module-3.ts",
+		"/tmp/mozilla_inaki0/about.component-3.ts",
+		"/tmp/mozilla_inaki0/leader.service-3.ts",
+		"/tmp/mozilla_inaki0/home.component-2.ts",
+		"/tmp/mozilla_inaki0/app.module-2.ts",
+		"/tmp/mozilla_inaki0/about.component-2.ts",
+		"/tmp/mozilla_inaki0/leader.service-2.ts",
+		"/home/inaki/Downloads/trash/home.component.html",
+		"/tmp/mozilla_inaki0/app.module-1.ts",
+		"/tmp/mozilla_inaki0/home.component-1.ts",
+		"/tmp/mozilla_inaki0/about.component-1.ts",
+		"/tmp/mozilla_inaki0/leader.service-1.ts",
+		"/home/inaki/Downloads/trash/header.component.html",
+		"/tmp/mozilla_inaki0/leader-1.ts",
+		"/tmp/mozilla_inaki0/app.module.ts"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"t_pub",
+			"publi",
+			"current_ti"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "X_NUCLEO_IKS01A2/Components/LSM6DSL/LSM6DSLSensor.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 52269,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4439,
+								4467
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 932.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "InBot01.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 890,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								890,
+								890
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Sensing.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 813,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								575,
+								575
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "main.cpp.bkp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5249,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2700,
+								3470
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 914.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "main.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7864,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3041,
+								3041
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1349.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "main.cpp.ina",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9746,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9736,
+								9736
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4590.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 323.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "mbed",
+	"project": "InBot01.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/dev/src/rosserial/rosserial_mbed/src/examples/Blink/Blink.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 257.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
