@@ -5,7 +5,6 @@
 #endif
 
 #include "XNucleoIKS01A2.h"
-#include "QEI.h"
 
 /* Instantiate the expansion board */
 static XNucleoIKS01A2 *mems_expansion_board = XNucleoIKS01A2::instance(D14, D15, D4, D5);
@@ -21,9 +20,6 @@ static LSM303AGRAccSensor *accelerometer = mems_expansion_board->accelerometer;
 
 
 #define PULSES_PER_REVOLUTION 624
-
-QEI leftQei(D11, NC, NC, 624);  //chanA, chanB, index, ppr
-QEI rightQei(D12, NC, NC, 624); //chanB, chanA, index, ppr
 
 class MyImu 
 {

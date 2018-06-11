@@ -6,6 +6,7 @@
 #endif
 
 #include "L6206.h"
+#include "QEI.h"
 
 /* Definitions ---------------------------------------------------------------*/
  
@@ -37,15 +38,28 @@ L6206 *motor;
 /* User button on Nucleo board */
 InterruptIn my_button_irq(USER_BUTTON);
 
-class MyMotor : public L6206
+class InBridge : public L6206 
 {
 public:
-	MyMotor( uint8_t ENA, uint8_t ENB, uint8_t INA1, uint8_t INA2, uint8_t INB1, uint8_t INB2);
+	InBridge( uint8_t ENA, uint8_t ENB, uint8_t INA1, 
+	uint8_t INA2, uint8_t INB1, uint8_t INB2);
+	const InBridge *GetBridgeHandle() const { return this; }
+};
+
+class InMotor 
+{
+public:
+	InMotor( InBridge *bridgeHangle, int motorIndex );
+	bool runForward( int Speed );
+	bool runBackwards( int Speed );
+	bool stop( bool bshutBridge = TRUE);
+	int getQEI() { return pQei_->getPulses(); }
 
 private:
-	L6206 *motor_;
+	InBridge *bridgeHandle_;
+	int motorIndex_;
+	QEI *pQei_;  //chanA, chanB, index, ppr	
 
-	uint16_t leftPulses_;    //How far the left wheel has travelled.
-    uint16_t rightPulses_;    //How far the right wheel has travelled.
+	uint16_t pulses_;    //How far the left wheel has travelled.    
     uint16_t distance_; //Number of pulses to travel.
 };

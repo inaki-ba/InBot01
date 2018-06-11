@@ -181,7 +181,11 @@ int main( void ) {
  
  #ifdef MOTORS_INA       
 
-      MyMotor *motor = new MyMotor(D2, A4, D5, D4, A0, A1);
+      InBridge *pBridge = new InBridge(D2, A4, D5, D4, A0, A1);
+      InMotor pMotorFL = new InMotor(pBridge, MOT_FL);
+      InMotor pMotorFR = new InMotor(pBridge, MOT_FR);
+      InMotor pMotorRL = new InMotor(pBridge, MOT_RL);
+      InMotor pMotorRR = new InMotor(pBridge, MOT_RR);
 
 #endif
     while (1) {
@@ -225,45 +229,35 @@ int main( void ) {
 #ifdef MOTORS_INA
           if (gStep > 0) {            
             /* Set speed of motor 0 to 5% */
-            motor->set_speed(2,50);
-            /* start motor 0 */
-            motor->run(2, BDCMotor::FWD);
+            pMotorFL->runForward(50);            
         }
- 
-        if (gStep > 1) {            
+         if (gStep > 1) {            
             /* Set speed of motor 1 to 10 % */
-            motor->set_speed(3,100);
-            /* start motor 1 */
-            motor->run(3, BDCMotor::FWD);
+            pMotorFR->runForward(50);             
         }
- 
-        if (gStep > 2) {            
+         if (gStep > 2) {            
             /* Set speed of motor 2 to 15 % */
-            motor->set_speed(2,150);
-            /* start motor 2 */
-            motor->run(2, BDCMotor::FWD);
+            pMotorRL->runForward(150);             
         }
- 
-        if (gStep > 3)  {
+         if (gStep > 3)  {
             /* Set speed of motor 3 to 20 % */
-            motor->set_speed(3,200);
-            /* start motor 3 */
-            motor->run(3, BDCMotor::FWD);      
+            pMotorRR->runForward(150);
         }
  
         if (gStep > 0) {
             wait_ms(1000);
         
-            motor->hard_hiz(2);   
-            motor->hard_hiz(3);   
-            motor->hard_hiz(2);   
-            motor->hard_hiz(3);
+            pMotorFL->stop();   
+            pMotorFR->stop();     
+            pMotorRL->stop();     
+            pMotorRR->stop();   
             
             wait_ms(1000);
         }
-
-        //leftPulses  = leftQei.getPulses();
-        //rightPulses = rightQei.getPulses();
+        flPulses  = pMotorFL->getQei(TRUE);
+        frPulses  = pMotorFR->getQei(TRUE);
+        rlPulses  = pMotorRL->getQei(TRUE);
+        rrPulses  = pMotorRR->getQei(TRUE);
 #endif
     }
 }

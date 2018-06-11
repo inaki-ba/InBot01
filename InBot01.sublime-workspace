@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"uin",
+				"uint16_t"
+			],
+			[
 				"imu_",
 				"imu_mag"
 			],
@@ -484,15 +488,6 @@
 	"buffers":
 	[
 		{
-			"file": "X_NUCLEO_IKS01A2/Components/LSM6DSL/LSM6DSLSensor.cpp",
-			"settings":
-			{
-				"buffer_size": 52269,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "InBot01.sublime-project",
 			"settings":
 			{
@@ -501,38 +496,59 @@
 			}
 		},
 		{
-			"file": "Sensing.h",
+			"file": "Motor.h",
 			"settings":
 			{
-				"buffer_size": 813,
+				"buffer_size": 1269,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "main.cpp.bkp",
+			"file": "Sensing.h",
 			"settings":
 			{
-				"buffer_size": 5249,
-				"line_ending": "Windows"
+				"buffer_size": 1105,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "main.cpp",
 			"settings":
 			{
-				"buffer_size": 7864,
+				"buffer_size": 6346,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "main.cpp.ina",
+			"file": "Sensing.cpp",
 			"settings":
 			{
-				"buffer_size": 9746,
+				"buffer_size": 3021,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "#include \"Sensing.h\""
+			}
+		},
+		{
+			"file": "Motor.cpp",
+			"settings":
+			{
+				"buffer_size": 1791,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "MyBotTeleOp.h",
+			"settings":
+			{
+				"buffer_size": 309,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "#include <turtlesim/Velocity.h>"
 			}
 		}
 	],
@@ -580,6 +596,13 @@
 	],
 	"file_history":
 	[
+		"/home/inaki/dev/src/rosserial/rosserial_mbed/src/InBot01/MyBotTeleOp.cpp",
+		"/home/inaki/dev/src/rosserial/rosserial_mbed/src/InBot01/X_NUCLEO_IHM04A1/Components/L6206/L6206.h",
+		"/home/inaki/dev/src/rosserial/rosserial_mbed/src/InBot01/X_NUCLEO_IHM04A1/Components/L6206/L6206_def.h",
+		"/home/inaki/dev/src/rosserial/rosserial_mbed/src/InBot01/X_NUCLEO_IKS01A2/Components/LSM6DSL/LSM6DSLSensor.cpp",
+		"/home/inaki/dev/src/rosserial/rosserial_mbed/src/InBot01.bkp2/Odom.cpp",
+		"/home/inaki/dev/src/rosserial/rosserial_mbed/src/InBot01/main.cpp.ina",
+		"/home/inaki/dev/src/rosserial/rosserial_mbed/src/InBot01/main.cpp.bkp",
 		"/home/inaki/dev/src/rosserial/rosserial_mbed/src/InBot01/Odom.cpp",
 		"/home/inaki/dev/src/rosserial/rosserial_mbed/src/InBot01/pid.h",
 		"/home/inaki/dev/src/rosserial/rosserial_mbed/src/InBot01/Motor.h",
@@ -700,18 +723,11 @@
 		"/tmp/mozilla_inaki0/app.module-2.ts",
 		"/tmp/mozilla_inaki0/about.component-2.ts",
 		"/tmp/mozilla_inaki0/leader.service-2.ts",
-		"/home/inaki/Downloads/trash/home.component.html",
-		"/tmp/mozilla_inaki0/app.module-1.ts",
-		"/tmp/mozilla_inaki0/home.component-1.ts",
-		"/tmp/mozilla_inaki0/about.component-1.ts",
-		"/tmp/mozilla_inaki0/leader.service-1.ts",
-		"/home/inaki/Downloads/trash/header.component.html",
-		"/tmp/mozilla_inaki0/leader-1.ts",
-		"/tmp/mozilla_inaki0/app.module.ts"
+		"/home/inaki/Downloads/trash/home.component.html"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -725,6 +741,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"buffe",
+			"print",
+			"pring",
+			"motor",
+			"wait",
+			"printf",
+			"imu_pu",
+			"off",
 			"t_pub",
 			"publi",
 			"current_ti"
@@ -735,6 +759,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"//pc.printf"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -745,41 +770,11 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 6,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "X_NUCLEO_IKS01A2/Components/LSM6DSL/LSM6DSLSensor.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 52269,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4439,
-								4467
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 932.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "InBot01.sublime-project",
 					"semi_transient": false,
 					"settings":
@@ -804,6 +799,34 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Motor.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1269,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1142,
+								1142
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 5,
 					"type": "text"
 				},
@@ -813,15 +836,102 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 813,
+						"buffer_size": 1105,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								575,
-								575
+								907,
+								907
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "main.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6346,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								986,
+								986
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Sensing.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3021,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3021,
+								3021
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#include \"Sensing.h\"",
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 471.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Motor.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1791,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								28,
+								28
 							]
 						],
 						"settings":
@@ -836,93 +946,32 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "main.cpp.bkp",
+					"buffer": 6,
+					"file": "MyBotTeleOp.h",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5249,
+						"buffer_size": 309,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2700,
-								3470
+								308,
+								308
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"auto_name": "#include <turtlesim/Velocity.h>",
+							"syntax": "Packages/C++/C++.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 914.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "main.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7864,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3041,
-								3041
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1349.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "main.cpp.ina",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9746,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								9736,
-								9736
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4590.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]
