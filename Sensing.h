@@ -33,7 +33,7 @@ private:
 	sensor_msgs::Imu imu_;
     sensor_msgs::MagneticField imu_mag_;
 
-    uint8_t id;
+    uint8_t temp_id, press_id, mag_id, gyro_id, acc_id;
     int32_t axes[3];
     int32_t off[3];
     float parziale[3];

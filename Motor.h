@@ -22,7 +22,7 @@ static volatile uint8_t gStep = 0;
 /* Variables -----------------------------------------------------------------*/
  
 /* Initialization parameters. */
-L6206_init_t init =
+L6206_init_t init_str =
 {
     L6206_CONF_PARAM_PARALLE_BRIDGES,
     {L6206_CONF_PARAM_FREQ_PWM1A, L6206_CONF_PARAM_FREQ_PWM2A, L6206_CONF_PARAM_FREQ_PWM1B, L6206_CONF_PARAM_FREQ_PWM2B},
@@ -41,10 +41,14 @@ InterruptIn my_button_irq(USER_BUTTON);
 class InBridge : public L6206 
 {
 public:
-	InBridge( uint8_t ENA, uint8_t ENB, uint8_t INA1, 
-	uint8_t INA2, uint8_t INB1, uint8_t INB2);
+	InBridge( PinName ENA, PinName ENB, PinName INA1, PinName INA2, PinName INB1, PinName INB2);
+	void my_error_handler(uint16_t error);
+	void my_flag_irq_handler(void);
+	void my_button_pressed(void);
 	const InBridge *GetBridgeHandle() const { return this; }
 };
+
+InBridge *pBridge;
 
 class InMotor 
 {

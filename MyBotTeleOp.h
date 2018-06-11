@@ -1,4 +1,4 @@
-#include <turtlesim/Velocity.h>
+#include <turtle_actionlib/Velocity.h>
 #include <sensor_msgs/Joy.h>
 
 class MyBotTeleOp 
@@ -7,7 +7,7 @@ public:
 	MyBotTeleOp();
 
 private:
-	void joyCallback(const sensor:msgs::Joy::ConstPtr & joy);
+	void joyCallback(const sensor_msgs::Joy::ConstPtr & joy);
 
 	ros::NodeHandle nh_;
 

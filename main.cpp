@@ -40,113 +40,6 @@ char odom[] = "/odom";
 char s_imu[] = "/imu";
 
 
-/* Functions -----------------------------------------------------------------*/
- 
-/**
-  * @brief  This function is executed in case of error occurrence.
-  * @param  error number of the error
-  * @retval None
-  */
-void my_error_handler(uint16_t error)
-{
-  /* Backup error number */
-  gLastError = error;
-  
-  /* Enter your own code here */
-}
- 
-/**
-* @brief  This function is the User handler for the flag interrupt
-* @param  None
-* @retval None
-* @note   If needed, implement it, and then attach and enable it:
-*           + motor->attach_flag_interrupt(my_flag_irq_handler);
-*/
-void my_flag_irq_handler(void)
-{
-  /* Code to be customised */
-  /************************/
-  /* Get the state of bridge A */
-  uint16_t bridgeState  = motor->get_bridge_status(0);
-  
-  if (bridgeState == 0) {
-    if ((motor->get_device_state(0) != INACTIVE)||
-        (motor->get_device_state(1) != INACTIVE)) {
-      /* Bridge A was disabling due to overcurrent or over temperature */
-      /* When at least on of its  motor was running */
-        my_error_handler(0XBAD0);
-    }
-  }
-  
-  /* Get the state of bridge B */
-  bridgeState  = motor->get_bridge_status(1);
-  
-  if (bridgeState == 0)  {
-    if ((motor->get_device_state(2) != INACTIVE)||
-        (motor->get_device_state(3) != INACTIVE)) {
-      /* Bridge A was disabling due to overcurrent or over temperature */
-      /* When at least on of its  motor was running */
-        my_error_handler(0XBAD1);
-    }
-  }  
-}
- 
- 
-/* Private functions ---------------------------------------------------------*/
- 
-/**
-  * @brief  Button Irq
-  * @param  None
-  * @retval None
-  */
- 
-void my_button_pressed(void)
-{
-    my_button_irq.disable_irq();
-    gStep++;
-    if (gStep > MAX_MOTOR) {
-        gStep = 0;
-    }
-    wait_ms(200);
-    my_button_irq.enable_irq();
-}
-
-/* Helper function for printing floats & doubles */
-static char *print_double(char* str, double v, int decimalDigits=2)
-{
-  int i = 1;
-  int intPart, fractPart;
-  int len;
-  char *ptr;
-
-  /* prepare decimal digits multiplicator */
-  for (;decimalDigits!=0; i*=10, decimalDigits--);
-
-  /* calculate integer & fractinal parts */
-  intPart = (int)v;
-  fractPart = (int)((v-(double)(int)v)*i);
-
-  /* fill in integer part */
-  sprintf(str, "%i.", intPart);
-
-  /* prepare fill in of fractional part */
-  len = strlen(str);
-  ptr = &str[len];
-
-  /* fill in leading fractional zeros */
-  for (i/=10;i>1; i/=10, ptr++) {
-    if (fractPart >= i) {
-      break;
-    }
-    *ptr = '0';
-  }
-
-  /* fill in (rest of) fractional part */
-  sprintf(ptr, "%i", fractPart);
-
-  return str;
-}
-
 int main( void ) {
 
     //pc.baud(57600);
@@ -162,26 +55,11 @@ int main( void ) {
 
     float value1, value2;
     char buffer1[32], buffer2[32];
-            
-    //pc.printf("\r\n--- Starting new run ---\r\n");
 
-    hum_temp->read_id(&id);
-    //pc.printf("HTS221  humidity & temperature    = 0x%X\r\n", id);
-    press_temp->read_id(&id);
-    //pc.printf("LPS22HB  pressure & temperature   = 0x%X\r\n", id);
-    magnetometer->read_id(&id);
-    //pc.printf("LSM303AGR magnetometer            = 0x%X\r\n", id);
-    accelerometer->read_id(&id);
-    //pc.printf("LSM303AGR accelerometer           = 0x%X\r\n", id);
-    acc_gyro->read_id(&id);
-    //pc.printf("LSM6DSL accelerometer & gyroscope = 0x%X\r\n", id);
-
-      
     wait(1.5);
  
  #ifdef MOTORS_INA       
-
-      InBridge *pBridge = new InBridge(D2, A4, D5, D4, A0, A1);
+      pBridge = new InBridge(D2, A4, D5, D4, A0, A1);
       InMotor pMotorFL = new InMotor(pBridge, MOT_FL);
       InMotor pMotorFR = new InMotor(pBridge, MOT_FR);
       InMotor pMotorRL = new InMotor(pBridge, MOT_RL);

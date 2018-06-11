@@ -1,3 +1,5 @@
+#include "MyBotTeleOp.h"
+
 MyBotTeleOp::TeleopTurtle():
      linear_(1),
      angular_(2)

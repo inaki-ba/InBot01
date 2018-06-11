@@ -14,8 +14,21 @@ MyImu::MyImu( NodeHandle nh )
     for(int i=0;i<3;i++)
         {finale[i] = 0;}
 
+	//pc.printf("\r\n--- Starting new run ---\r\n");
+
+    hum_temp->read_id(&temp_id);
+    //pc.printf("HTS221  humidity & temperature    = 0x%X\r\n", id);
+    press_temp->read_id(&press_id);
+    //pc.printf("LPS22HB  pressure & temperature   = 0x%X\r\n", id);    
+	magnetometer->read_id(&mag_id);
+    //pc.printf("LSM303AGR magnetometer            = 0x%X\r\n", id);
+    accelerometer->read_id(&acc_id);
+    //pc.printf("LSM303AGR accelerometer           = 0x%X\r\n", id);
+    acc_gyro->read_id(&gyro_id);
+    //pc.printf("LSM6DSL accelerometer & gyroscope = 0x%X\r\n", id);
+
       /* Enable all sensors */
-     
+
     hum_temp->enable();
     press_temp->enable();
     magnetometer->enable();
